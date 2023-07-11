@@ -1,0 +1,13 @@
+
+
+SELECT `enrolment_date` year, COUNT(*)
+FROM `students`
+GROUP BY `enrolment_date`;
+
+
+SELECT `office_address`, COUNT(*)
+FROM `teachers`
+GROUP BY `office_address`;
+
+
+
